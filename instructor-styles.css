@@ -1,0 +1,95 @@
+
+body {
+  font-family: Arial;
+}
+
+header {
+  background-color: #03a3df;
+  height: 300px;
+}
+
+.headerbox {
+  box-sizing: border-box;
+  width: 900px;
+  padding-left: 50px;
+}
+
+nav {
+  background-color: #1b447f;
+  padding: 25px;
+}
+
+.navbox {
+  box-sizing: border-box;
+  color: white;
+  width: 525px;
+  padding: 25px;
+}
+
+h1 {
+  font: 40pt bold arial;
+  color: black;
+}
+
+h2 {
+  font: 24pt bold arial;
+  color: #1b447f;
+}
+
+h3 {
+  font: 17pt bold arial;
+  color: #1b447f;
+}
+
+
+.info-box {
+  box-sizing: border-box;
+  padding: 25px 25px;
+}
+
+.grid-container div {
+  border: 1px;
+  background-color: #ecb722;
+}
+.grid-container {
+  display: grid;
+  grid-gap: 10px 10px;
+}
+.grid-item-1 {
+  grid-column: 1 / span 12;
+  grid-row: 1 / span 12;
+}
+.grid-item-2 {
+  grid-column: 1 / span 12;
+  grid-row: 2 / span 12;
+}
+.grid-item-3 {
+  grid-column: 1 / span 12;
+  grid-row: 3 / span 12;
+}
+.grid-container {
+  grid-template-columns: 10px 20px 20px 30px;
+  justify-content: center;
+}
+
+
+footer {
+  background-image: url(https://raw.githubusercontent.com/UWFront-End-Cert/html100/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg);
+  height: 20em;
+  padding-left: 50px;
+  padding-top: 25px;
+}
+
+footer p {
+  text-align: left;
+  padding-left: 25px;
+  color: white;
+}
+
+.flexbox-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  }
